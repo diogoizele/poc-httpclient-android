@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Poc HttpClient Android</string>
+    <string name="home_title">POC - HttpClient Android</string>
+    <string name="okhttp3">OkHttp3</string>
+    <string name="http_url_connection">HttpURLConnection</string>
+    <string name="retrofit">Retrofit</string>
+    <string name="volley">Volley</string>
+    <string name="ktor_client">Ktor Client</string>
+</resources>
