@@ -35,6 +35,8 @@ object RetrofitClient {
     }
 
     fun executeRequest(call: Call<Todo>, onFinished: (() -> Unit)? = null) {
+        Log.i("RetrofitTest", "Iniciando request")
+
         val startTime = System.currentTimeMillis()
 
         call.enqueue(object : Callback<Todo> {

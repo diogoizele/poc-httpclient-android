@@ -33,6 +33,9 @@ object KtorClientService {
     )
 
     suspend fun executeRequest(url: String, onFinished: (() -> Unit)? = null) {
+        Log.i("KtorTest", "Iniciando request para: $url")
+
+
         val startTime = System.currentTimeMillis()
 
         try {
