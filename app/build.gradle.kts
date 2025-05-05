@@ -47,9 +47,12 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     implementation(libs.okhttp)
+
     implementation(libs.retrofit)
-    implementation(libs.converter.gson)
+    implementation(libs.converter.gson
+    )
     implementation(libs.volley)
+
     implementation(libs.ktor.client.core)
     implementation(libs.ktor.client.android)
     implementation(libs.ktor.client.content.negotiation)
